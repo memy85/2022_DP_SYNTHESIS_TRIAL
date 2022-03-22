@@ -6,9 +6,13 @@
 - 파일구조
     ```
     2022_DP_SYNTHESIS_TRIAL┳ReadMe.md
+                           ┠configuration.txt-초기 설정들 : 추후 타기관 데이터 합성시 필요
                            ┠syndp-DP 합성 라이브러리
                            ┣data-데이터 디렉토리
                            ┠notebook-jupyter notebook 디렉토리
+                           ┠code-추후 타기관 데이터 합성을 위한 코드
+                           ┠figures-추후 타기관 데이터 합성 후 평가를 위한 figure
+
                            
     ```
     - syndp는 데이터 합성을 위한 라이브러리
