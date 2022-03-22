@@ -3,7 +3,22 @@
 
 # Instructions
 - Purpose : DP를 이용한 데이터 합성 알고리즘 사용에 대한 튜토리얼 제시 및 코드 사용에 대한 지식 제공
-- 파일구조
+
+---
+## Prerequisites[준비사항]
+1. git clone
+    ```
+    git clone https://github.com/memy85/2022_DP_SYNTHESIS_TRIAL.git
+    ```
+    * 혹은 `fork`를 해오는 것도 방법이다. 
+
+2. 필요 패키지 설치
+    ```
+    pip3 install -r requirements.txt
+    ```
+
+
+3. 파일구조
     ```
     2022_DP_SYNTHESIS_TRIAL┳ReadMe.md
                            ┠requirements.txt-
@@ -22,6 +37,8 @@
     - code는 추후 데이터 합성을 위한 코드 모음
     - figures는 추후 데이터 합성후 평가를 위해 만드는 figure 결과물 모음 디렉토리
 
+---
+## Tutorial 진행방법
 1. 먼저 notebook 폴더에 있는 tutorial.ipynb 파일의 내용을 숙지한다.
     - input 데이터 형식과 output 데이터 형식을 볼 수 있음
     - syndp가 어떻게 활용되는지 볼 수 있음
