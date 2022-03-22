@@ -35,7 +35,6 @@ def timeseries_dp(timeseries, epsilon):
             dp_value = get_differential_privacy_value(scaled_value, epsilon) # 여기를 나중에 바꿔줄 것임
             # synthesized value : v'
             dp_value = np.array(dp_value).reshape(-1,1)
-            print(dp_value)
             syn_value = scaler.inverse_transform(dp_value)
             S.append(syn_value.item())
     
